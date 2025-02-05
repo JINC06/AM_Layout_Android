@@ -36,6 +36,8 @@
             android:layout_height="wrap_content"/>
 
         <EditText
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/ic_person"
             android:id="@+id/etCorreo"
             android:inputType="textEmailAddress"
             android:maxLines="1"
@@ -46,6 +48,8 @@
             android:layout_height="wrap_content"/>
 
         <EditText
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/ic_lock"
             android:id="@+id/edContrasenia"
             android:inputType="textPassword"
             android:maxLines="1"
